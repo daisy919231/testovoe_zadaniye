@@ -25,7 +25,9 @@ class TaskDetailAPI(RetrieveAPIView):
     queryset = Task.objects.all()
     serializer_class = TaskSerializer
     lookup_field = "id"
-
+'''
+lookup_field=id, because default lookup_field is 'pk'.
+'''
 
 class TaskUpdateAPI(RetrieveUpdateAPIView):
     queryset = Task.objects.all()
