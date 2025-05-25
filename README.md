@@ -32,7 +32,7 @@ API для создания, чтения, обновления и удален�
 
 ## Технологии
 
-- Язык: Python 3.10+
+- Язык: Python 3.13
 - Фреймворк: Django 5.2, Django REST Framework 3.16
 - База данных: PostgreSQL
 - Документация API: drf-yasg (Swagger/OpenAPI)
