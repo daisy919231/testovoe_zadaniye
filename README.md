@@ -70,6 +70,10 @@ API доступен по адресу: http://localhost:8000/tasks/
 
 Swagger UI документация: http://localhost:8000/swagger/
 
+
+**Code style**
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 Контакты
 Если возникнут вопросы — пишите: shahzodaakhmedova91@gmail.com
 
