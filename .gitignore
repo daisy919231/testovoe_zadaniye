@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.sqlite3
+*.log
+*.env
+.env.*
+
+# Django
+/staticfiles/
+/media/
+/db.sqlite3
+
+# Docker
+*.pid
+*.sock
+*.log
+.env
+docker-compose.override.yml
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Tests
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# Virtualenv
+venv/
+env/
+ENV/
+.venv
+venv
